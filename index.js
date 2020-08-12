@@ -60,19 +60,40 @@ dogYears(24);
 //takes weight in pounds and age in years (note if the dog is a puppy the age will be a decimal) and returns the number of pounds of raw food to feed in a day.
 
 //feeding requirements
-// adult dogs at least 1 year 
-// up to 5 lbs - 5% of their body weight
-// 6 - 10 lbs - 4% of their body weight 
-// 11 - 15 lbs - 3% of their body weight 
-// > 15lbs - 2% of their body weight 
+    // adult dogs at least 1 year 
+    // up to 5 lbs - 5% of their body weight
+    // 6 - 10 lbs - 4% of their body weight 
+    // 11 - 15 lbs - 3% of their body weight 
+    // > 15lbs - 2% of their body weight 
 
 // Puppies less than 1 year
-// 2 - 4 months 10% of their body weight
-// 4 - 7 months 5% of their body weight 
-// 7 - 12 months 4% of their body weight
+    // 2 - 4 months 10% of their body weight
+    // 4 - 7 months 5% of their body weight 
+    // 7 - 12 months 4% of their body weight
 
 // when you are finished invoke your function with the weight of 15 lbs and the age of 1 year - if your calculations are correct your result should be 0.44999999999999996
+
+// let (percentOfWeight = '.03');
+// let (age ='1');
+// let (weight ='15');
+// function dogFeeder(weight, percentOfWeight ){
+//     const poundsOfRawFood = 0;
+//     poundsOfRawFood = (weight*percentOfWeight);
+//     console.log(poundsOfRawFood);
+//     return poundsOfRawFood;
+//   }  
+function dogFeeder(age){
+    if (age >= '1'){
+    console.log('it is a dog')
+    } else if (age < '1'){
+        console.log('it is a puppy')
+    }
+    
+}
+dogFeeder('1');
   
+
+
 
 
 
