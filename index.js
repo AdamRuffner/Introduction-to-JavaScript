@@ -82,15 +82,22 @@ dogYears(24);
 //     console.log(poundsOfRawFood);
 //     return poundsOfRawFood;
 //   }  
-function dogFeeder(age){
-    if (age >= '1'){
+function dogFeeder(weight,percent){
+    if (age > '1'){
     console.log('it is a dog')
     } else if (age < '1'){
         console.log('it is a puppy')
     }
-    
+    if (weight == '11,14,15'){
+        console.log('use 3%')
+    }if (weight == '6,7,8,9,10'){
+        console.log('use 4%')
+    }if (weight == '1,2,3,4,5'){
+        console.log('use 5%')
+    }
+    return weight * percent
 }
-dogFeeder('1');
+console.log(dogFeeder(15,.03));
   
 
 
